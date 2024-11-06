@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root{
+    --black-red: #780000;
+    --red: #c1121f;
+    --white: #fdf0d5;
+    --black-blue: #003049;
+    --blue: #669bbc;
+}
+
+img{
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--black-blue);
+    height: 10rem;
+}
+
+h1{
+    font-size: 6.5rem;
+    color: var(--white);
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.3rem;
+}
+header{
+    padding-top: 1.2rem;
+    background: var(--red);
+    height: 17rem;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+nav a .activi{
+    color: var(--blue);
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    img{
+        border-radius: 50%;
+        height: 10rem;
+        width: 10rem;
+    }
+}
+
+.historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    img{
+        border-radius: 50%;
+        height: 10rem;
+        width: 10rem;
+    }
+}
+
+.cultura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    img{
+        border-radius: 50%;
+        height: 10rem;
+        width: 10rem;
+    }
+}
+
+.turismo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    img{
+        border-radius: 50%;
+        height: 10rem;
+        width: 10rem;
+    }
+}
+h2{
+    padding-left: 7rem;
+    color: var(--white);
+    font-size: 3rem;
+}
+
+a{
+    padding-top: 0.7rem;
+    color: var(--white);
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(./imagens_paises/plano-de-fundo-torre-elffel.jpg);
+    height: 55rem;
+    width: 113rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.estetica{
+    margin-right: 1.5rem;
+    margin-top: 15rem;
+}
+
+.estetica p{
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7rem;
+    color: var(--red);
+}
+
+.texto{
+    background: var(--black-blue);
+    height: 10rem;
+}
+
+.texto p{
+    font-size: 2.3rem;
+    margin-left: 4rem;
+    color: var(--white);
+}
+
+.musseu{
+    background-image: url(./imagens_paises/musseu-do-louvre.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55rem;
+}

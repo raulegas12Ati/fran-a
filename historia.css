@@ -1,0 +1,134 @@
+@import "./global.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff; /* Fundo branco */
+    color: #333;
+}
+
+h2{
+    color: var(--white);
+}
+
+p{
+    color: var(--white);
+}
+
+.titulo {
+    background-color: #002366; /* Azul escuro */
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titulo h1 {
+    font-size: 2.5em;
+    color: var(--white);
+}
+
+.titulo p {
+    margin-top: 3.5rem;
+    font-size: 1.2em;
+}
+
+nav {
+     /* Vermelho */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Texto branco */
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+nav ul li a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    width: 113rem;
+    margin: 0 auto;
+}
+
+.comeco{
+    background: var(--black-blue);
+    width: 120rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.segundo{
+    width: 113rem;
+}
+
+
+
+section {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+section h2, section h3 {
+    color: #c8102e; /* Vermelho */
+    margin-bottom: 10px;
+}
+
+section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #002366; /* Azul escuro */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+nav ul li a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 50%; /* Deixa o ícone circular */
+    background-color: #ffffff; /* Cor de fundo opcional para o círculo */
+    padding: 2px; /* Espaçamento opcional entre o ícone e o fundo */
+}

@@ -1,0 +1,51 @@
+@import "./global.css";
+
+.titulo{
+    import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+
+/! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com/
+*,
+:after,
+:before {
+  border: 0 solid #e5e7eb;
+  box-sizing: border-box;
+}
+:after,
+:before {
+  --tw-content: "";
+}
+:host,
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-family:
+    Open Sans,
+    ui-sans-serif,
+    system-ui,
+    sans-serif,
+    Apple Color Emoji,
+    Segoe UI Emoji,
+    Segoe UI Symbol,
+    Noto Color Emoji;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  -moz-tab-size: 4;
+  tab-size: 4;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  line-height: inherit;
+  margin: 0;
+}
+hr {
+ …: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--black-blue);
+    height: 10rem; 
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
