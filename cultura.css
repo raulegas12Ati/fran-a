@@ -6,10 +6,10 @@
     width: 113rem;
     background-color: var(--black-blue);
     color: #f7f7f7;
-    
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
+    box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.1);
     padding: 1rem;
+    display: flex;
+    justify-content: center;
   }
 
   header h2{
@@ -20,9 +20,9 @@
 }
 
   .largura{
-    padding-inline: 4rem;
-    border: 1px solid red;
-    width: 100rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 63rem;
   }
   
   #trabalho h1 {
@@ -39,19 +39,19 @@
   
   #trabalho h3 {
     text-align: center;
-    margin-bottom: 20px;
-    font-size: 16px;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
   }
   
   #trabalho p {
-    font-size: 14px;
-    margin-bottom: 20px;
+    font-size: 0.87rem;
+    margin-bottom: 1.25rem;
     line-height: 1.5;
   }
   
   #trabalho .image-container {
     width: 100%;
-    height: 200px;
+    height: 12.5rem;
     object-fit: cover;
   }
   
@@ -60,23 +60,25 @@
   }
   
   #trabalho .columns div {
-    margin-bottom: 30px;
+    margin-bottom: 1.87rem;
   }
   
   #trabalho .columns div h2 {
     text-align: center;
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 1.12rem;
+    margin-bottom: 0.62rem;
   }
   
   #trabalho .columns div p {
-    font-size: 14px;
+    font-size: 0.87rem;
     text-align: center;
   }
   
-  #trabalho .image-row {
+  #trabalho .image{
     display: block;
-    margin-bottom: 20px;
-    border: 0px;
+    margin-bottom: 1.25rem;
+    border: 0rem;
   }
+
+ 
   

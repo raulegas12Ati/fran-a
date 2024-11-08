@@ -1,51 +1,75 @@
 @import "./global.css";
 
-.titulo{
-    import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-/! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com/
-*,
-:after,
-:before {
-  border: 0 solid #e5e7eb;
-  box-sizing: border-box;
-}
-:after,
-:before {
-  --tw-content: "";
-}
-:host,
-html {
-  line-height: 1.5;
-  -webkit-text-size-adjust: 100%;
-  font-family:
-    Open Sans,
-    ui-sans-serif,
-    system-ui,
-    sans-serif,
-    Apple Color Emoji,
-    Segoe UI Emoji,
-    Segoe UI Symbol,
-    Noto Color Emoji;
-  font-feature-settings: normal;
-  font-variation-settings: normal;
-  -moz-tab-size: 4;
-  tab-size: 4;
-  -webkit-tap-highlight-color: transparent;
-}
 body {
-  line-height: inherit;
-  margin: 0;
-}
-hr {
- …: flex;
-    justify-content: center;
-    align-items: center;
-    background: var(--black-blue);
-    height: 10rem; 
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: var(--black-blue);
+    color: var(--white);
 }
 
-main{
-    display: flex;
-    justify-content: center;
+header h2 {
+    padding-left: 7rem;
+    color: var(--white);
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.62rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 0.62rem;
+}
+
+div {
+    margin-bottom: 1.25rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.container {
+    width: 80rem;
+    margin: 1.2rem auto;
+    padding-top: 2rem;
+    padding-inline: 5rem;
+    background-color: var(--black-blue);
+    border-radius: 0.62rem;
+}
+
+.torre {
+    width: 63rem;
+}
+
+.torre img {
+    width: 63rem;
+}
+
+.musseu{
+    width: 63rem;
+}
+
+.musseu img {
+    width: 63rem;
+}
+
+.jardim{
+    width: 63rem;
+}
+
+.jardim img {
+    width: 63rem;
 }

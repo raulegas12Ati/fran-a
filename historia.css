@@ -50,18 +50,18 @@ p{
 }
 
 .titulo h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     color: var(--white);
 }
 
 .titulo p {
     margin-top: 3.5rem;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 nav {
      /* Vermelho */
-    padding: 10px;
+    padding: 0.62rem;
 }
 
 nav ul {
@@ -71,7 +71,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    
 }
 
 nav ul li a {
@@ -83,9 +83,9 @@ nav ul li a {
 }
 
 nav ul li a img {
-    width: 20px;
-    height: 20px;
-    margin-right: 8px;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.5rem;
 }
 
 nav ul li a:hover {
@@ -93,7 +93,7 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 20px;
+    padding: 1.25rem;
     width: 113rem;
     margin: 0 auto;
 }
@@ -114,41 +114,41 @@ main {
 
 
 section {
-    margin-bottom: 30px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 20px;
+    margin-bottom: 1.87rem;
+    border-bottom: 0.06rem solid #ddd;
+    padding-bottom: 1.25rem;
     background: var(--black-blue);
 }
 
 section h2, section h3 {
     color: #c8102e; /* Vermelho */
-    margin-bottom: 10px;
+    margin-bottom: 0.62rem;
 }
 
 section img {
     width: 100%;
-    max-width: 600px;
+    max-width: 37.5rem;
     height: auto;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0.62rem;
+    border-radius: 0.31rem;
+    
 }
 
 footer {
     background-color: #002366; /* Azul escuro */
     color: #ffffff;
     text-align: center;
-    padding: 10px;
+    padding: 0.62rem;
     position: fixed;
     width: 100%;
     bottom: 0;
 }
 
 nav ul li a img {
-    width: 20px;
-    height: 20px;
-    margin-right: 8px;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.5rem;
     border-radius: 50%; /* Deixa o ícone circular */
     background-color: #ffffff; /* Cor de fundo opcional para o círculo */
-    padding: 2px; /* Espaçamento opcional entre o ícone e o fundo */
+    padding: 0.12rem; /* Espaçamento opcional entre o ícone e o fundo */
 }
