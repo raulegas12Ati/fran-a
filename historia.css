@@ -37,14 +37,12 @@ p{
     color: var(--white);
 }
 
-.
-
 .titulo p {
     margin-top: 3.5rem;
     font-size: 1.2rem;
 }
 
-nav {
+nav{
      /* Vermelho */
     padding: 0.62rem;
 }
