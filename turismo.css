@@ -13,6 +13,10 @@ body {
     color: var(--white);
 }
 
+header{
+    width: 100%;
+}
+
 header h2 {
     padding-left: 7rem;
     color: var(--white);

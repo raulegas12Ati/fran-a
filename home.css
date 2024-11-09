@@ -149,6 +149,7 @@ main{
 }
 
 .musseu{
+    width: 100%;
     background-image: url(./imagens_paises/musseu-do-louvre.jfif);
     background-repeat: no-repeat;
     background-size: cover;
