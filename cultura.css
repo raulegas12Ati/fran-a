@@ -1,15 +1,18 @@
 @import "./global.css";
 
 
-
 #trabalho {
-    width: 113rem;
+    
     background-color: var(--black-blue);
     color: #f7f7f7;
     box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.1);
     padding: 1rem;
     display: flex;
     justify-content: center;
+  }
+
+  body{
+    width: 100%;
   }
 
   header{
@@ -26,7 +29,10 @@
   .largura{
     padding-left: 2rem;
     padding-right: 2rem;
-    width: 63rem;
+    width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
   #trabalho h1 {

@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
     
 }
 
@@ -46,11 +46,6 @@ p{
     font-size: 1.2rem;
 }
 
-nav{
-     /* Vermelho */
-    padding: 0.62rem;
-}
-
 nav ul {
     list-style: none;
     text-align: center;
@@ -81,13 +76,13 @@ nav ul li a:hover {
 
 main {
     padding: 1.25rem;
-    width: 113rem;
+    width: 90rem;
     margin: 0 auto;
 }
 
 .comeco{
     background: var(--black-blue);
-    width: 120rem;
+    
     height: 20rem;
     display: flex;
     justify-content: center;
@@ -97,7 +92,6 @@ main {
 .segundo{
     width: 113rem;
 }
-
 
 
 section {

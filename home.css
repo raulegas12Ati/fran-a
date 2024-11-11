@@ -119,7 +119,7 @@ main{
     justify-content: flex-end;
     background-image: url(./imagens_paises/plano-de-fundo-torre-elffel.jpg);
     height: 55rem;
-    width: 113rem;
+   
     background-repeat: no-repeat;
     background-size: cover;
 }
