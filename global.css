@@ -13,25 +13,19 @@
     --blue: #669bbc;
 }
 
-html{
-    width: 100%;
-}
 
-body{
-    width: 100%;
-}
 
 header{
     padding-top: 1.2rem;
     background: var(--red);
-    width: 100%;
+ 
 }
 
 nav{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    width: 100%;
+   
 }
 
 nav a.activi{
